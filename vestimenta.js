@@ -1,74 +1,62 @@
 const locales = [
   {
-    nombre: "Hotel CROWN",
-    informacion: 70,
+    nombre: "Hotel CROWN Melo",
+    informacion: "J. Batlle Y Ordonez 609",
     link: "https://static11.com-hotel.com/uploads/hotel/61376/photo/hotel-crown_15332322651.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+
 
   },
   {
-    nombre: "Hotel Juana de América",
-    informacion: 70,
+    nombre: "Hotel Juana de América",                       
+    informacion: "Ruta 8 Brigadier Gral Juan Antonio Lavalleja",
     link: "https://media-cdn.tripadvisor.com/media/photo-s/09/fd/df/6c/dsc-0341-largejpg.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+
 
   },
   {
-    nombre: "Hotel 3",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628079251261-624e723b7326?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+    nombre: "Hotel Virrey Pedro de Melo" ,
+    informacion: "Gral. 727, Justino Muniz, Melo",
+    link: "http://www.hotelesencerrolargo.com.uy/cache/com_zoo/images/1-hotel-del-virrey-melo_2b76596d3034b2bbf008e5403627924a.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+
 
   },
   {
-    nombre: "Hotel 4",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628132232967-fb1807288edd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    nombre: "Posada La Comandancia" ,
+    informacion: "18 de Julio 408",
+    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfd1thD4NL8qMFLJbrZHd84IWo4OD94pmOLFPezsdxfXMFQ0vRruKNJXRmiuZHAOMULI&usqp=CAU",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+
 
   },
   {
-    nombre: "Hotel 5",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628134187787-51c21f177a6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+    nombre: "Posada Imperial",
+    informacion: "Bvar. Francisco Mata 333",
+    link: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/233291461.jpg?k=7125438f83d3256a2ce6bf9a7df6e2a0f5422f6701baca54b8a228013057d9fe&o=&hp=1",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
+
 
   },
   {
-    nombre: "Hotel 7",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1626379801357-537572de4ad6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+    nombre: "Estancia El Rosario",
+    informacion: "Gral. Leandro Gómez km. 429",
+    link: "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/39/34/3934034_v1.jpeg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/estanciaElRosario.html'",
 
-  },
-  {
-    nombre: "hotel 8",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1627772329965-8ec1de188eeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "Pan",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1618194696448-c21afdbb90be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "Waffles",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1598578273254-cf2b91351d56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-    disponible: true,
-    button: "Ver más"
 
   },
 ];
@@ -92,12 +80,11 @@ const crearYAgregar = (local)=> {
   nombre.textContent = local.nombre;
   button.textContent = local.button;
 
-
-
+  button.setAttribute("onclick", local.linkButton);
   imagen.setAttribute("src", local.link);
   imagen.setAttribute("alt", local.nombre);
 
-  informacion.textContent = `Por tan solo: $${local.informacion}`;
+  informacion.textContent = `Puedes encontrarlos en: ${local.informacion}`;
 
   main.appendChild(contenedor);
 }

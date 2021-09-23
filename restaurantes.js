@@ -1,76 +1,45 @@
 const locales = [
   {
-    nombre: "Hotel CROWN",
-    informacion: 70,
-    link: "https://static11.com-hotel.com/uploads/hotel/61376/photo/hotel-crown_15332322651.jpg",
+    nombre: "Restaurante A",
+    informacion: "J. Batlle Y Ordonez 609",
+    link: "https://gestion.pe/resizer/h6Zig3yPGvhlUSwmFYYROlq2I7o=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/2YSGG6JP3NGRVPYV3NY5VT7VYU.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+
 
   },
   {
-    nombre: "Hotel Juana de América",
-    informacion: 70,
-    link: "https://media-cdn.tripadvisor.com/media/photo-s/09/fd/df/6c/dsc-0341-largejpg.jpg",
+    nombre: "Restaurante B",                       
+    informacion: "Ruta 8 Brigadier Gral Juan Antonio Lavalleja",
+    link: "https://www.hola.com/imagenes/decoracion/20200124158920/decoracion-interiores-nuevos-restaurantes-diseno/0-773-846/restaurantes-5a-a.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+
 
   },
   {
-    nombre: "Hotel 3",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628079251261-624e723b7326?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+    nombre: "Restaurante C" ,
+    informacion: "Gral. 727, Justino Muniz, Melo",
+    link: "https://www.experimenta.es/wp-content/uploads/2017/10/Restaurant-Bar-Design-Awads-2017-Piccolino-Hachem-experimenta-3-e1511513363350.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+
 
   },
   {
-    nombre: "Hotel 4",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628132232967-fb1807288edd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    nombre: "Restaurante D" ,
+    informacion: "18 de Julio 408",
+    link: "https://i2.wp.com/www.diegocoquillat.com/wp-content/uploads/2017/10/Koh-Lanta.jpg?ssl=1",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+
 
   },
-  {
-    nombre: "Hotel 5",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628134187787-51c21f177a6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "Hotel 7",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1626379801357-537572de4ad6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "hotel 8",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1627772329965-8ec1de188eeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "Pan",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1618194696448-c21afdbb90be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "Waffles",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1598578273254-cf2b91351d56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
+  
 ];
 const main = document.getElementsByTagName("main")[0];
 
@@ -92,11 +61,11 @@ const crearYAgregar = (local)=> {
   nombre.textContent = local.nombre;
   button.textContent = local.button;
 
-
+  button.setAttribute("onclick", local.linkButton);
   imagen.setAttribute("src", local.link);
   imagen.setAttribute("alt", local.nombre);
 
-  informacion.textContent = `Por tan solo: $${local.informacion}`;
+  informacion.textContent = `Puedes encontrarlos en: ${local.informacion}`;
 
   main.appendChild(contenedor);
 }

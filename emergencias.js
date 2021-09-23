@@ -49,7 +49,7 @@ const crearYAgregar = (local)=> {
   const nombre = document.createElement("h2");
   const imagen = document.createElement("img");
   const informacion = document.createElement("p");
-  const button = document.createElement("button")
+  const button = document.createElement("button");
   const linkButton = document.createElement("link");
 
 

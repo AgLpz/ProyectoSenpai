@@ -1,36 +1,64 @@
 const locales = [
   {
-    nombre: "Policía",
-    informacion: 70,
-    link: "https://lh3.googleusercontent.com/proxy/ZQ4_3v04gg_mTUugMq784vXBCDQWNRjrCO5iePTJG_cwc4xgnNXVzPixoplTOTi-2RyVmPkvHaj0zs76QvI69E-1y3g3FEcQ71LJxr-amNig5WhXrC2mABoauBkbs0aYBoyn",
+    nombre: "Hotel CROWN Melo",
+    informacion: "J. Batlle Y Ordonez 609",
+    link: "https://static11.com-hotel.com/uploads/hotel/61376/photo/hotel-crown_15332322651.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+
 
   },
   {
-    nombre: "Bomberos",
-    informacion: 70,
-    link: "http://www.lagomerin.com.uy/images/bomberos-melo.jpg",
+    nombre: "Hotel Juana de América",                       
+    informacion: "Ruta 8 Brigadier Gral Juan Antonio Lavalleja",
+    link: "https://media-cdn.tripadvisor.com/media/photo-s/09/fd/df/6c/dsc-0341-largejpg.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+
 
   },
   {
-    nombre: "Hospitales Públicos",
-    informacion: 70,
-    link: "https://www.asse.com.uy/imgnoticias/201606/H400/53687.jpg",
+    nombre: "Hotel Virrey Pedro de Melo" ,
+    informacion: "Gral. 727, Justino Muniz, Melo",
+    link: "http://www.hotelesencerrolargo.com.uy/cache/com_zoo/images/1-hotel-del-virrey-melo_2b76596d3034b2bbf008e5403627924a.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+
 
   },
   {
-    nombre: "Centros de Salud privados",
-    informacion: 70,
-    link: "https://www.camcel.com.uy/images/blue.jpg",
+    nombre: "Posada La Comandancia" ,
+    informacion: "18 de Julio 408",
+    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfd1thD4NL8qMFLJbrZHd84IWo4OD94pmOLFPezsdxfXMFQ0vRruKNJXRmiuZHAOMULI&usqp=CAU",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+
+
   },
-  
+  {
+    nombre: "Posada Imperial",
+    informacion: "Bvar. Francisco Mata 333",
+    link: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/233291461.jpg?k=7125438f83d3256a2ce6bf9a7df6e2a0f5422f6701baca54b8a228013057d9fe&o=&hp=1",
+    disponible: true,
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
+
+
+  },
+  {
+    nombre: "Estancia El Rosario",
+    informacion: "Gral. Leandro Gómez km. 429",
+    link: "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/39/34/3934034_v1.jpeg",
+    disponible: true,
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/estanciaElRosario.html'",
+
+
+  },
 ];
 const main = document.getElementsByTagName("main")[0];
 
@@ -52,14 +80,11 @@ const crearYAgregar = (local)=> {
   nombre.textContent = local.nombre;
   button.textContent = local.button;
 
-
-
-
+  button.setAttribute("onclick", local.linkButton);
   imagen.setAttribute("src", local.link);
   imagen.setAttribute("alt", local.nombre);
 
-
-  informacion.textContent = `Por tan solo: $${local.informacion}`;
+  informacion.textContent = `Puedes encontrarlos en: ${local.informacion}`;
 
   main.appendChild(contenedor);
 }

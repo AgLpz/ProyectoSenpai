@@ -1,74 +1,62 @@
 const locales = [
   {
-    nombre: "Hotel CROWN",
-    informacion: 70,
-    link: "https://static11.com-hotel.com/uploads/hotel/61376/photo/hotel-crown_15332322651.jpg",
+    nombre: "TA-TA",
+    informacion: "J. Batlle Y Ordonez 609",
+    link: "//www.enqueinvertir.cl/wp-content/uploads/2018/12/Tata_San_Carlos.png",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+
 
   },
   {
-    nombre: "Hotel Juana de América",
-    informacion: 70,
-    link: "https://media-cdn.tripadvisor.com/media/photo-s/09/fd/df/6c/dsc-0341-largejpg.jpg",
+    nombre: "El Dorado",                       
+    informacion: "Ruta 8 Brigadier Gral Juan Antonio Lavalleja",
+    link: "https://sc2.elpais.com.uy/files/article_main/uploads/2021/03/26/605e4652f0a3d.jpeg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+
 
   },
   {
-    nombre: "Hotel 3",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628079251261-624e723b7326?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+    nombre: "Devoto" ,
+    informacion: "Gral. 727, Justino Muniz, Melo",
+    link: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Supermercado_Devoto_-_panoramio.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+
 
   },
   {
-    nombre: "Hotel 4",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628132232967-fb1807288edd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    nombre: "Supermercado A" ,
+    informacion: "18 de Julio 408",
+    link: "https://i.blogs.es/0baa91/39f95492-38ee-4f16-92e1-ba5161f4a958/1366_2000.jpeg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+
 
   },
   {
-    nombre: "Hotel 5",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628134187787-51c21f177a6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+    nombre: "Supermercado B",
+    informacion: "Bvar. Francisco Mata 333",
+    link: "https://imagenes.elpais.com/resizer/JJIibWqM-VdG0KtEUagEpFIYjCk=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/2MRLAMWNLJE3TBYELF4EGKKREQ.jpg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
+
 
   },
   {
-    nombre: "Hotel 7",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1626379801357-537572de4ad6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+    nombre: "Supermercado C",
+    informacion: "Gral. Leandro Gómez km. 429",
+    link: "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2021/05/26/mujer-joven-comprando-en-el-supermercado-con-mascarilla.jpeg",
     disponible: true,
-    button: "Ver más"
+    button: "Ver más",
+    linkButton: "location.href='/hoteleriaHoteles/estanciaElRosario.html'",
 
-  },
-  {
-    nombre: "hotel 8",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1627772329965-8ec1de188eeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "Pan",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1618194696448-c21afdbb90be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    disponible: true,
-    button: "Ver más"
-
-  },
-  {
-    nombre: "Waffles",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1598578273254-cf2b91351d56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-    disponible: true,
-    button: "Ver más"
 
   },
 ];
@@ -92,11 +80,11 @@ const crearYAgregar = (local)=> {
   nombre.textContent = local.nombre;
   button.textContent = local.button;
 
-
+  button.setAttribute("onclick", local.linkButton);
   imagen.setAttribute("src", local.link);
   imagen.setAttribute("alt", local.nombre);
 
-  informacion.textContent = `Por tan solo: $${local.informacion}`;
+  informacion.textContent = `Puedes encontrarlos en: ${local.informacion}`;
 
   main.appendChild(contenedor);
 }
