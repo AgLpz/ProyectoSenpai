@@ -1,8 +1,8 @@
 const locales = [
   {
-    nombre: "Hotel CROWN Melo",
+    nombre: "Farmashop",
     informacion: "J. Batlle Y Ordonez 609",
-    link: "https://static11.com-hotel.com/uploads/hotel/61376/photo/hotel-crown_15332322651.jpg",
+    link: "https://infonegocios.biz/uploads/farmashop100localesenuy.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
@@ -10,9 +10,9 @@ const locales = [
 
   },
   {
-    nombre: "Hotel Juana de América",                       
+    nombre: "Farmacia San Roque",                       
     informacion: "Ruta 8 Brigadier Gral Juan Antonio Lavalleja",
-    link: "https://media-cdn.tripadvisor.com/media/photo-s/09/fd/df/6c/dsc-0341-largejpg.jpg",
+    link: "https://tramitesuruguay.com/wp-content/uploads/2021/07/farmacia-san-roque-300x226.png",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
@@ -20,45 +20,16 @@ const locales = [
 
   },
   {
-    nombre: "Hotel Virrey Pedro de Melo" ,
+    nombre: "Farmacia C" ,
     informacion: "Gral. 727, Justino Muniz, Melo",
-    link: "http://www.hotelesencerrolargo.com.uy/cache/com_zoo/images/1-hotel-del-virrey-melo_2b76596d3034b2bbf008e5403627924a.jpg",
+    link: "https://i.pinimg.com/originals/bf/7d/9b/bf7d9b4e1c44840ae4e91e9729be2877.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
 
 
   },
-  {
-    nombre: "Posada La Comandancia" ,
-    informacion: "18 de Julio 408",
-    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfd1thD4NL8qMFLJbrZHd84IWo4OD94pmOLFPezsdxfXMFQ0vRruKNJXRmiuZHAOMULI&usqp=CAU",
-    disponible: true,
-    button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
 
-
-  },
-  {
-    nombre: "Posada Imperial",
-    informacion: "Bvar. Francisco Mata 333",
-    link: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/233291461.jpg?k=7125438f83d3256a2ce6bf9a7df6e2a0f5422f6701baca54b8a228013057d9fe&o=&hp=1",
-    disponible: true,
-    button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
-
-
-  },
-  {
-    nombre: "Estancia El Rosario",
-    informacion: "Gral. Leandro Gómez km. 429",
-    link: "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/39/34/3934034_v1.jpeg",
-    disponible: true,
-    button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/estanciaElRosario.html'",
-
-
-  },
 ];
 const main = document.getElementsByTagName("main")[0];
 

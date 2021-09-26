@@ -2,7 +2,7 @@ const locales = [
   {
     nombre: "Policía",
     informacion: 70,
-    link: "https://lh3.googleusercontent.com/proxy/ZQ4_3v04gg_mTUugMq784vXBCDQWNRjrCO5iePTJG_cwc4xgnNXVzPixoplTOTi-2RyVmPkvHaj0zs76QvI69E-1y3g3FEcQ71LJxr-amNig5WhXrC2mABoauBkbs0aYBoyn",
+    link: "https://media.subrayado.com.uy/adjuntos/230/videos/002/664/0002664409.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='./emergenciaPolicia.html'",
@@ -71,7 +71,7 @@ const crearYAgregar = (local)=> {
   imagen.setAttribute("alt", local.nombre);
 
 
-  informacion.textContent = `Por tan solo: $${local.informacion}`;
+  informacion.textContent = `Puedes encontrarlos en: ${local.informacion}`;
 
   main.appendChild(contenedor);
 }

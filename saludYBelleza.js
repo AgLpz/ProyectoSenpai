@@ -1,8 +1,8 @@
 const locales = [
   {
-    nombre: "Hotel CROWN Melo",
+    nombre: "SPA X",
     informacion: "J. Batlle Y Ordonez 609",
-    link: "https://static11.com-hotel.com/uploads/hotel/61376/photo/hotel-crown_15332322651.jpg",
+    link: "https://www.wheretraveler.com/sites/default/files/spa_cr_new_africa_for_shutterstock.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
@@ -10,9 +10,9 @@ const locales = [
 
   },
   {
-    nombre: "Hotel Juana de América",                       
+    nombre: "SPA Y",                       
     informacion: "Ruta 8 Brigadier Gral Juan Antonio Lavalleja",
-    link: "https://media-cdn.tripadvisor.com/media/photo-s/09/fd/df/6c/dsc-0341-largejpg.jpg",
+    link: "https://bethelspa.com/sitio2/wp-content/uploads/2017/12/Spa-Blog-Photo_1.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
@@ -20,9 +20,9 @@ const locales = [
 
   },
   {
-    nombre: "Hotel Virrey Pedro de Melo" ,
+    nombre: "Tienda de cosméticos" ,
     informacion: "Gral. 727, Justino Muniz, Melo",
-    link: "http://www.hotelesencerrolargo.com.uy/cache/com_zoo/images/1-hotel-del-virrey-melo_2b76596d3034b2bbf008e5403627924a.jpg",
+    link: "https://muchosnegociosrentables.com/wp-content/uploads/2020/10/pasos-para-montar-una-tienda-de-maquillaje.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
@@ -30,9 +30,9 @@ const locales = [
 
   },
   {
-    nombre: "Posada La Comandancia" ,
+    nombre: "Perfumerías" ,
     informacion: "18 de Julio 408",
-    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfd1thD4NL8qMFLJbrZHd84IWo4OD94pmOLFPezsdxfXMFQ0vRruKNJXRmiuZHAOMULI&usqp=CAU",
+    link: "https://cdn.forbes.co/2019/12/Sin-t%C3%ADtulo2.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
@@ -40,22 +40,13 @@ const locales = [
 
   },
   {
-    nombre: "Posada Imperial",
+    nombre: "SPA Z",
     informacion: "Bvar. Francisco Mata 333",
     link: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/233291461.jpg?k=7125438f83d3256a2ce6bf9a7df6e2a0f5422f6701baca54b8a228013057d9fe&o=&hp=1",
-    disponible: true,
+    disponible: false,
+    //Se marca como false para demostrar su funcionalidad.
     button: "Ver más",
     linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
-
-
-  },
-  {
-    nombre: "Estancia El Rosario",
-    informacion: "Gral. Leandro Gómez km. 429",
-    link: "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/39/34/3934034_v1.jpeg",
-    disponible: true,
-    button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/estanciaElRosario.html'",
 
 
   },

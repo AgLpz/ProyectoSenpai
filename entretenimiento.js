@@ -1,8 +1,8 @@
 const locales = [
   {
     nombre: "Cine",
-    informacion: 70,
-    link: "https://static11.com-hotel.com/uploads/hotel/61376/photo/hotel-crown_15332322651.jpg",
+    informacion: "Calle X",
+    link: "https://www.ngenespanol.com/wp-content/uploads/2018/08/En-este-pa%C3%ADs-volver%C3%A1n-haber-cines-comerciales-despu%C3%A9s-de-30-a%C3%B1os-1280x720.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='./emergenciaPolicia.html'",
@@ -11,8 +11,8 @@ const locales = [
   },
   {
     nombre: "Canchas de Fútbol",
-    informacion: 70,
-    link: "https://media-cdn.tripadvisor.com/media/photo-s/09/fd/df/6c/dsc-0341-largejpg.jpg",
+    informacion: "Calle X",
+    link: "https://lh3.googleusercontent.com/proxy/nxFqkGz-3ADDdJygdPtVs_DucuSo0kiipQKlh77o18ItfGMIFfEx6hRbj_QOmseqqYTn6Yrr5J3OTWxTh8yCMKWwB-cF6ZgJw_Jyp0BeGqd3_1myN3KwUPz5FXg2t6Z7ATkestaedLEPMSINzLChD55Ppg6qrDFVsg90D15-",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='./emergenciaPolicia.html'",
@@ -21,8 +21,8 @@ const locales = [
   },
   {
     nombre: "Tennis",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628079251261-624e723b7326?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+    informacion: "Calle X",
+    link: "https://www.tennisworldes.com/imgb/1806/medidas-oficiales-de-las-canchas-de-tenis.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='./emergenciaPolicia.html'",
@@ -31,8 +31,8 @@ const locales = [
   },
   {
     nombre: "Kayaks",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628132232967-fb1807288edd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    informacion: "Calle X",
+    link: "https://elviajerofeliz.com/wp-content/uploads/2020/06/Kayak-deporte-verano-1.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='./emergenciaPolicia.html'",
@@ -41,24 +41,14 @@ const locales = [
   },
   {
     nombre: "Pesca",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1628134187787-51c21f177a6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+    informacion: "Calle X",
+    link: "https://verdeyazul.diarioinformacion.com/wp-content/uploads/2021/03/fikret-kabay-en-Pixabay-fishing-4933219_1920.jpg",
     disponible: true,
     button: "Ver más",
     linkButton: "location.href='./emergenciaPolicia.html'",
 
 
   },
-  {
-    nombre: "Musica en vivo",
-    informacion: 70,
-    link: "https://images.unsplash.com/photo-1626379801357-537572de4ad6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
-    disponible: true,
-    button: "Ver más",
-    linkButton: "location.href='./emergenciaPolicia.html'",
-
-
-  }
 ];
 const main = document.getElementsByTagName("main")[0];
 
@@ -85,7 +75,7 @@ const crearYAgregar = (local)=> {
   imagen.setAttribute("src", local.link);
   imagen.setAttribute("alt", local.nombre);
 
-  informacion.textContent = `Por tan solo: $${local.informacion}`;
+  informacion.textContent = `Puedes encontrarlos en: ${local.informacion}`;
 
   main.appendChild(contenedor);
 }
