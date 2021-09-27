@@ -8,3 +8,4 @@ Modo de uso:
 2. Buscar el archivo index.html
 3. Presionar cmd + L + O para ejecutar el archivo en el navegador.
 
+Nota: Al ser solo un avance del proyecto, no está todo terminado. En caso de querer ver alguna sección más completa, visitar: hoteleriaHoteles/hotelCrownMelo.html
