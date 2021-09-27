@@ -5,7 +5,7 @@ const locales = [
     link: "https://cdn.euroinnova.edu.es/img/subidasEditor/11-1596082251.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://papelmatic.com/wp-content/uploads/2019/09/papelmatic-higiene-profesional-limpieza-desinfeccion-clinicas-veterinarias-1080x675.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://www.promedco.com/images/NOTICIAS_2020/reducir-estres-de-mascotas-1.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },

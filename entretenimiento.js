@@ -5,7 +5,7 @@ const locales = [
     link: "https://www.ngenespanol.com/wp-content/uploads/2018/08/En-este-pa%C3%ADs-volver%C3%A1n-haber-cines-comerciales-despu%C3%A9s-de-30-a%C3%B1os-1280x720.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='./emergenciaPolicia.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://lh3.googleusercontent.com/proxy/nxFqkGz-3ADDdJygdPtVs_DucuSo0kiipQKlh77o18ItfGMIFfEx6hRbj_QOmseqqYTn6Yrr5J3OTWxTh8yCMKWwB-cF6ZgJw_Jyp0BeGqd3_1myN3KwUPz5FXg2t6Z7ATkestaedLEPMSINzLChD55Ppg6qrDFVsg90D15-",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='./emergenciaPolicia.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://www.tennisworldes.com/imgb/1806/medidas-oficiales-de-las-canchas-de-tenis.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='./emergenciaPolicia.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -35,7 +35,7 @@ const locales = [
     link: "https://elviajerofeliz.com/wp-content/uploads/2020/06/Kayak-deporte-verano-1.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='./emergenciaPolicia.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -45,7 +45,7 @@ const locales = [
     link: "https://verdeyazul.diarioinformacion.com/wp-content/uploads/2021/03/fikret-kabay-en-Pixabay-fishing-4933219_1920.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='./emergenciaPolicia.html'",
+    linkButton: "location.href='#'",
 
 
   },

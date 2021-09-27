@@ -5,7 +5,7 @@ const locales = [
     link: "https://cdn.euroinnova.edu.es/img/subidasEditor/fotolia_51884997_subscription_monthly_m-1615888840.webp",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://contrainformacion.es/wp-content/uploads/2020/11/Cerrajero.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://muchosnegociosrentables.com/wp-content/uploads/2017/06/C%C3%B3mo-iniciar-un-servicio-de-fontanero-o-plomero.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -35,7 +35,7 @@ const locales = [
     link: "https://homesolution.net/blog/wp-content/uploads/2019/01/IMG_5613.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -45,7 +45,7 @@ const locales = [
     link: "https://lh3.googleusercontent.com/proxy/DZCREpJU0Oy68BZMJ__v7HATdzYHpaftUko-aaqfdnYfKK5PJW4kW9YVGCWaS7BmJSm6o9tz318k28SkPmrnEFu_kCBGhBIs01e1IOlKdd5PBYmN4A",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
+    linkButton: "location.href='#'",
 
 
   },

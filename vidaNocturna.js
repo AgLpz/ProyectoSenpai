@@ -5,7 +5,7 @@ const locales = [
     link: "https://i.pinimg.com/originals/7a/18/63/7a1863aa0dcfd4c29749daed2a452e8a.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://images.adsttc.com/media/images/5a32/4c74/b22e/385c/9e00/009f/large_jpg/250917__-__Antares_Guemes_ph_G_Viramonte-7896.jpg?1513245806",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sekt-im-supermarkt.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -35,7 +35,7 @@ const locales = [
     link: "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/27171104/cerveceria-1516.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+    linkButton: "location.href='#'",
 
 
   },

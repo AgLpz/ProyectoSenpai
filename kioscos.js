@@ -5,7 +5,7 @@ const locales = [
     link: "https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2019/02/473701.jpg?7.2.4",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://veredes.es/blog/wp-content/uploads/2019/01/El-mobiliario-urbano-y-la-revoluci%C3%B3n.-Los-kioscos-Jelena-Prokopljevi%C4%87-Kiosco-tienda-1024x738.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://sc2.elpais.com.uy/files/article_default_content/uploads/2021/09/16/6143327ef2949.jpeg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },

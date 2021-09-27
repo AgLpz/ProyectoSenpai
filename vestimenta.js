@@ -5,7 +5,7 @@ const locales = [
     link: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tienda-ropa-hombre-uniqlo-barcelona-japon-1509382416.jpg?crop=1xw:1xh;center,top&resize=480:*",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://rincondelemprendedor.es/wp-content/uploads/2021/03/tienda-de-ropa.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -35,7 +35,7 @@ const locales = [
     link: "https://images.pexels.com/photos/8386665/pexels-photo-8386665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+    linkButton: "location.href='#'",
 
 
   },

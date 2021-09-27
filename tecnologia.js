@@ -5,7 +5,7 @@ const locales = [
       link: "https://www.allgsmtips.com/wp-content/uploads/2015/10/free-cell-phone-repair-2-990x500.jpg",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+      linkButton: "location.href='#'",
   
   
     },
@@ -15,7 +15,7 @@ const locales = [
       link: "https://aws.admagazine.com/prod/designs/v1/assets/767x384/57482.jpg",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+      linkButton: "location.href='#'",
   
   
     },
@@ -25,7 +25,7 @@ const locales = [
       link: "https://www.apple.com/newsroom/images/environments/stores/Apple_sanlitun-beijing-opening-exterior-07162020.jpg.og.jpg?202108061040",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+      linkButton: "location.href='#'",
   
   
     },
@@ -35,7 +35,7 @@ const locales = [
       link: "https://www.focalpointphoto.com/wp-content/uploads/2013/02/Focal-Point-103.jpg",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+      linkButton: "location.href='#'",
   
   
     },
@@ -45,7 +45,7 @@ const locales = [
       link: "https://miro.medium.com/max/600/1*gbSX4-Kssynywlm_7E-Gmg.png",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
+      linkButton: "location.href='#'",
   
   
     },

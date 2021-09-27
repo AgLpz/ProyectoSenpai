@@ -5,7 +5,7 @@ const locales = [
     link: "https://cdn.shopify.com/s/files/1/0744/1969/articles/Papeleria-02_800x.png?v=1592605464",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://emprendeconhuevos.com/wp-content/uploads/2019/07/nombres-para-papelerias-y-librerias.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://hidalgo.quadratin.com.mx/www/wp-content/uploads/2019/06/papelerias.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -35,7 +35,7 @@ const locales = [
     link: "https://definicionyque.es/wp-content/uploads/2018/04/papeleria_.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+    linkButton: "location.href='#'",
 
 
   },

@@ -5,7 +5,7 @@ const locales = [
     link: "https://gestion.pe/resizer/h6Zig3yPGvhlUSwmFYYROlq2I7o=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/2YSGG6JP3NGRVPYV3NY5VT7VYU.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://www.hola.com/imagenes/decoracion/20200124158920/decoracion-interiores-nuevos-restaurantes-diseno/0-773-846/restaurantes-5a-a.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,9 +25,7 @@ const locales = [
     link: "https://www.experimenta.es/wp-content/uploads/2017/10/Restaurant-Bar-Design-Awads-2017-Piccolino-Hachem-experimenta-3-e1511513363350.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
-
-
+    linkButton: "location.href='#'",
   },
   {
     nombre: "Restaurante D" ,
@@ -35,9 +33,7 @@ const locales = [
     link: "https://i2.wp.com/www.diegocoquillat.com/wp-content/uploads/2017/10/Koh-Lanta.jpg?ssl=1",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
-
-
+    linkButton: "location.href='#'",
   },
   
 ];

@@ -5,7 +5,7 @@ const locales = [
     link: "https://www.diariojuridico.com/wp-content/uploads/2021/03/abogado-penalista-barcelona-diario-juridico-.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://rafaelmillano.com/wp-content/uploads/2021/06/Cuanto-gana-un-contador-publico.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "http://www.barindelli.com.uy/img/escribano.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -35,7 +35,7 @@ const locales = [
     link: "https://www.aprendemas.com/mx/blog/images/2017/03/arquitectura1.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -45,7 +45,7 @@ const locales = [
     link: "https://www.unir.net/wp-content/uploads/2020/06/iStock-899355338.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -55,7 +55,7 @@ const locales = [
     link: "https://www.azulweb.net/wp-content/uploads/2020/07/El-camino-para-ser-un-desarrollador-web-profesional.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/estanciaElRosario.html'",
+    linkButton: "location.href='#'",
 
 
   },

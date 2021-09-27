@@ -5,7 +5,7 @@ const locales = [
     link: "https://infonegocios.biz/uploads/farmashop100localesenuy.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://tramitesuruguay.com/wp-content/uploads/2021/07/farmacia-san-roque-300x226.png",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://i.pinimg.com/originals/bf/7d/9b/bf7d9b4e1c44840ae4e91e9729be2877.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },

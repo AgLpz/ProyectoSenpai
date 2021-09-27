@@ -5,7 +5,7 @@ const locales = [
       link: "https://lh3.googleusercontent.com/FZEOCr_O801KC6cLpPWDIdB-l9Cb9Kv9qsVpffffKgHaIzn8wk363lloGOWlCgQb7BuLmAKoCc3qkNRc=w768-h768-n-o-v1",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+      linkButton: "location.href='#'",
   
   
     },
@@ -15,7 +15,7 @@ const locales = [
       link: "https://urufacil.uy/wp-content/uploads/2019/03/image-2019-03-02T113120.466.jpg",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+      linkButton: "location.href='#'",
   
   
     },
@@ -25,7 +25,7 @@ const locales = [
       link: "https://ss-static-01.esmsv.com/id/123250/galeriaimagenes/obtenerimagen/?id=103&tipoEscala=stretch&width=2048&height=1365",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+      linkButton: "location.href='#'",
   
   
     },  
@@ -36,7 +36,7 @@ const locales = [
       link: "https://media.istockphoto.com/photos/women-buying-new-furniture-picture-id520294045?k=20&m=520294045&s=612x612&w=0&h=OaDOetXZogLbgJ_Qb-kgCyggkgLnmsMy1O1uhTXxrZI=",
       disponible: true,
       button: "Ver más",
-      linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+      linkButton: "location.href='#'",
   
   
     },

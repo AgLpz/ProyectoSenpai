@@ -5,7 +5,7 @@ const locales = [
     link: "https://www.wheretraveler.com/sites/default/files/spa_cr_new_africa_for_shutterstock.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelCrownMelo.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -15,7 +15,7 @@ const locales = [
     link: "https://bethelspa.com/sitio2/wp-content/uploads/2017/12/Spa-Blog-Photo_1.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelJuanaDeAmerica.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -25,7 +25,7 @@ const locales = [
     link: "https://muchosnegociosrentables.com/wp-content/uploads/2020/10/pasos-para-montar-una-tienda-de-maquillaje.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/hotelVirreyPedro.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -35,7 +35,7 @@ const locales = [
     link: "https://cdn.forbes.co/2019/12/Sin-t%C3%ADtulo2.jpg",
     disponible: true,
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaLaComandancia.html'",
+    linkButton: "location.href='#'",
 
 
   },
@@ -46,7 +46,7 @@ const locales = [
     disponible: false,
     //Se marca como false para demostrar su funcionalidad.
     button: "Ver más",
-    linkButton: "location.href='/hoteleriaHoteles/posadaImperial.html'",
+    linkButton: "location.href='#'",
 
 
   },
