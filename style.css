@@ -503,6 +503,138 @@ border: none;
   font-size: 1.6rem;
 }
 
+@media screen and (max-width: 800px){
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 2fr .8fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "main"
+      "section"
+      "footer";
+  }
+
+  .header{
+    width: 100%;
+
+  }
+  .navbar { 
+display: grid;  
+grid-template-rows: auto;
+  text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* Aca quede  */
+.navbar ul li a {
+  display: grid;
+grid-row: span 1;
+margin: 0;
+padding: 0;
+justify-items: end;}
+
+
+
+  .main{
+    width: 100%;
+  }
+
+  .main-2 {
+    width: 100%;
+  }
+  .main-3{
+    width: 100%;
+
+  }
+  footer {
+    width: 100%;
+  }
+
+  footer .footerTitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+  }
+  footer .derechosDeAutor {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.6rem;
+  }
+  .logoRedes {
+    display: flex;
+    justify-content: center;
+  }
+  .logoRedes i {
+    font-size: 25px;
+    padding: 15px 30px;
+    color: white;
+
+  }
+  .logoRedes a {
+    margin: 5px;
+  }
+  .login {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-areas: "login"
+                         "mapa";
+    box-shadow: 7px 13px 37px #000;
+  
+  
+  }
+
+
+ .cards {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+font-size: 1.6rem;
+width: 90%;
+
+ 
+
+ }
+ 
+ .cards > a{
+     padding-left: 8px;
+     padding-right: 8px;
+     margin: 7.5px;
+ }
+ .cards > a {      
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-color: none;
+            text-decoration: none;
+            
+          }
+ .restaurante, .tecnologia, .muebleria, .supermercados, .vestimenta, .papelerias, .saludybelleza, .profesionales, .hoteleria, .entretenimiento, .noche, .kiosco, .mascotas, .emergencia, .farmacia, .servicios {
+
+                     
+  display: grid;
+  height: 60px;
+  width: 90%;
+  padding: 10px;
+  justify-items: center;
+  background-size:cover;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 0px;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+        }
+
+}
+
+      
+         
 
       
          
