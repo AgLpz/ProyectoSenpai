@@ -159,6 +159,7 @@ background-color: var(--rojo);
        text-align: center;
        align-items: center;
        justify-content: center;
+       
 
      }
      .titulo {
@@ -394,22 +395,23 @@ cursor: pointer;
 border: none;
 
 }
-.login {
+.section-mapa {
   display: grid;
-  grid-template-columns: 0.5fr 1.5fr;
-  grid-template-areas: "login mapa";
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "mapa mapa";
   box-shadow: 7px 13px 37px #000;
 
 
 }
 .form-login {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-color: #4e4d4d;
-  padding: 20px 30px;
+  padding: 50px;
   border-top: 4px solid #017bab;
   color: white;
-  grid-area: login;
+  margin-top: 50px;
+  
 }
 
 .form-login h5 {
@@ -458,7 +460,7 @@ border: none;
 .mapa {
   grid-area: mapa;
   width: 100%;
-  height: 100%;
+  height: 500px;
 }
 
 
@@ -633,8 +635,57 @@ width: 90%;
 
 }
 
-      
-         
-
-      
-         
+form {
+  display: grid;
+  grid-template-rows: .5fr .5fr;
+  border: 1px solid #ddd;
+  min-width: 500px;
+}
+.inputLogin {
+  border: none;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.tituloLogin, .tituloRegister {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+   padding: 20px;
+   font-size: 3rem;
+ }
+#login, #register {
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #273036;
+  color: #ffffff;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+.containerLogin {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr 1.6fr .7fr;
+  grid-template-rows: .3fr 4fr 1.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+}
+.registerLink {
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  font-size: 3rem;  
+  background-color: #273036;
+  color: #ffffff;
+  padding: 10px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 8px;
+}
+.register a {
+color: aqua;}
