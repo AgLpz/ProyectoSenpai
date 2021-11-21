@@ -687,5 +687,5 @@ form {
   margin: 50px 100px 50px 100px;
   border-radius: 8px;
 }
-.register a {
-color: aqua;}
+.registerLink a {
+  color: firebrick;}
