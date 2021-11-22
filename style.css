@@ -295,8 +295,7 @@ background-color: var(--rojo);
 
         }
         .hoteleria {
-          background-image: url('https://empleobuenoahora.com/wp-content/uploads/2019/07/1.jpg');
-          grid-column: span 2;
+          background-image: url("https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768");
 
         }
         .entretenimiento {
@@ -361,9 +360,11 @@ background-color: var(--rojo);
   align-items: center;
   justify-content: center;
   margin: 3rem;
-  background-color: #fafafa;
-  border: solid 0.1px #273036;
+  color: #ffffff;
+    border: solid 0.1px #273036;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  border-radius: 16px;
+  background-color: #273036f3;
 
  }
 
@@ -381,7 +382,7 @@ background-color: var(--rojo);
 .local > h2 {
   padding-bottom: 15px;
   font-size: 2rem;
-  color: black;
+  color: #ffffff;
 }
 .local > button {
   display: flex;
@@ -504,6 +505,61 @@ border: none;
   color: white;
   font-size: 1.6rem;
 }
+form {
+  display: grid;
+  grid-template-rows: .5fr .5fr;
+  border: 1px solid #ddd;
+  min-width: 500px;
+}
+.inputLogin {
+  border: none;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.tituloLogin, .tituloRegister {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+   padding: 20px;
+   font-size: 3rem;
+ }
+#login, #register, .loginBut {
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #273036;
+  color: #ffffff;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+.containerLogin {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr 1.6fr .7fr;
+  grid-template-rows: .3fr 4fr 1.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+}
+.registerLink {
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  font-size: 3rem;  
+  background-color: #273036;
+  color: #ffffff;
+  padding: 10px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 8px;
+}
+.registerLink a {
+  color: firebrick;}
+
 
 @media screen and (max-width: 800px){
 
@@ -532,7 +588,6 @@ grid-template-rows: auto;
 }
 
 
-/* Aca quede  */
 .navbar ul li a {
   display: grid;
 grid-row: span 1;
@@ -633,59 +688,8 @@ width: 90%;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
         }
 
+
 }
 
-form {
-  display: grid;
-  grid-template-rows: .5fr .5fr;
-  border: 1px solid #ddd;
-  min-width: 500px;
-}
-.inputLogin {
-  border: none;
-  padding: 30px;
-  border-radius: 8px;
-  margin: 10px;
-}
-.tituloLogin, .tituloRegister {
-  display: grid;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-   padding: 20px;
-   font-size: 3rem;
- }
-#login, #register {
-  border: none;
-  padding: 15px;
-  cursor: pointer;
-  background-color: #273036;
-  color: #ffffff;
-  margin-bottom: 50px;
-  border-radius: 8px;
-}
-.containerLogin {
-  display: grid;
-  grid-template-columns: .5fr 1.5fr 1.6fr .7fr;
-  grid-template-rows: .3fr 4fr 1.3fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
-}
-.registerLink {
-  text-align: center;
-  align-items: center;
-  justify-content: start;
-  font-size: 3rem;  
-  background-color: #273036;
-  color: #ffffff;
-  padding: 10px;
-  margin: 50px 100px 50px 100px;
-  border-radius: 8px;
-}
-.registerLink a {
-  color: firebrick;}
+
+
